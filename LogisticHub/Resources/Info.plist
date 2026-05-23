@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App Identity -->
+    <key>CFBundleName</key>
+    <string>LogisticHubs</string>
+    <key>CFBundleDisplayName</key>
+    <string>LogisticHubs</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+
+    <!-- iOS Deployment -->
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- Location Permissions (Required for MapKit / Core Location) -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>LogisticHubs usa tu ubicación para mostrarte las sedes más cercanas y calcular rutas.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>LogisticHubs necesita acceso a la ubicación para mostrar rutas hacia las sedes logísticas.</string>
+
+    <!-- Network -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <!-- Set to YES only for development; remove or restrict in production -->
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>api.logistichubs.sv</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <false/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+
+    <!-- URL Schemes for External Navigation -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>waze</string>
+        <string>comgooglemaps</string>
+    </array>
+
+    <!-- Internationalization -->
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>es</string>
+        <string>en</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>es</string>
+</dict>
+</plist>

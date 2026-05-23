@@ -1,0 +1,63 @@
+/* =========================================
+   Localizable.strings (es)
+   LogisticHubs — Español
+   ========================================= */
+
+// MARK: - Navigation
+"hub_list_title"   = "Sedes Logísticas";
+"hub_detail_title" = "Detalle de Sede";
+
+// MARK: - Search & Filter
+"search_prompt" = "Buscar por nombre o ciudad...";
+"filter_all"    = "Todas";
+
+// MARK: - Hub Types
+"hub_type_distribution" = "Distribución";
+"hub_type_storage"      = "Almacenamiento";
+"hub_type_crossdocking" = "Cross-Docking";
+"hub_type_fulfillment"  = "Fulfillment";
+
+// MARK: - Hub Status
+"hub_status_active"      = "Activo";
+"hub_status_inactive"    = "Inactivo";
+"hub_status_maintenance" = "Mantenimiento";
+
+// MARK: - Detail Labels
+"detail_info_title"    = "Información General";
+"detail_contact_title" = "Contacto";
+"detail_address"       = "Dirección";
+"detail_capacity"      = "Capacidad";
+"detail_coordinates"   = "Coordenadas";
+"detail_created"       = "Fecha de Registro";
+"detail_email"         = "Correo Electrónico";
+"detail_phone"         = "Teléfono";
+"capacity_unit"        = "m²";
+
+// MARK: - Actions
+"action_open_maps"  = "Abrir en Apple Maps";
+"action_open_waze"  = "Navegar con Waze";
+"action_retry"      = "Reintentar";
+"action_dismiss"    = "Cerrar";
+
+// MARK: - States
+"state_loading"        = "Cargando sedes...";
+"state_empty_title"    = "Sin resultados";
+"state_empty_subtitle" = "No se encontraron sedes logísticas con los filtros aplicados.";
+
+// MARK: - Errors
+"error_title"              = "Error";
+"error_invalid_url"        = "URL de servicio no válida.";
+"error_network_unavailable" = "Sin conexión a internet.";
+"error_request_timeout"    = "La solicitud tardó demasiado.";
+"error_server"             = "Error del servidor (código %d).";
+"error_decoding"           = "Error al procesar datos: %@";
+"error_persistence"        = "Error al guardar datos: %@";
+"error_entity_not_found"   = "Registro no encontrado.";
+"error_location_permission" = "Permiso de ubicación denegado.";
+"error_location_unavailable" = "Ubicación no disponible.";
+"error_unknown"            = "Error inesperado: %@";
+
+// MARK: - Error Recovery
+"error_recovery_network"  = "Verifica tu conexión a internet e intenta nuevamente.";
+"error_recovery_location" = "Ve a Ajustes > Privacidad > Ubicación para conceder acceso.";
+"error_recovery_generic"  = "Por favor intenta nuevamente.";

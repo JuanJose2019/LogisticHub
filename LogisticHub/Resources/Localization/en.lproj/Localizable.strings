@@ -1,0 +1,63 @@
+/* =========================================
+   Localizable.strings (en)
+   LogisticHubs — English
+   ========================================= */
+
+// MARK: - Navigation
+"hub_list_title"   = "Logistics Hubs";
+"hub_detail_title" = "Hub Details";
+
+// MARK: - Search & Filter
+"search_prompt" = "Search by name or city...";
+"filter_all"    = "All";
+
+// MARK: - Hub Types
+"hub_type_distribution" = "Distribution";
+"hub_type_storage"      = "Storage";
+"hub_type_crossdocking" = "Cross-Docking";
+"hub_type_fulfillment"  = "Fulfillment";
+
+// MARK: - Hub Status
+"hub_status_active"      = "Active";
+"hub_status_inactive"    = "Inactive";
+"hub_status_maintenance" = "Maintenance";
+
+// MARK: - Detail Labels
+"detail_info_title"    = "General Information";
+"detail_contact_title" = "Contact";
+"detail_address"       = "Address";
+"detail_capacity"      = "Capacity";
+"detail_coordinates"   = "Coordinates";
+"detail_created"       = "Registered On";
+"detail_email"         = "Email Address";
+"detail_phone"         = "Phone";
+"capacity_unit"        = "m²";
+
+// MARK: - Actions
+"action_open_maps"  = "Open in Apple Maps";
+"action_open_waze"  = "Navigate with Waze";
+"action_retry"      = "Retry";
+"action_dismiss"    = "Dismiss";
+
+// MARK: - States
+"state_loading"        = "Loading hubs...";
+"state_empty_title"    = "No results";
+"state_empty_subtitle" = "No logistics hubs found matching the applied filters.";
+
+// MARK: - Errors
+"error_title"              = "Error";
+"error_invalid_url"        = "Invalid service URL.";
+"error_network_unavailable" = "No internet connection.";
+"error_request_timeout"    = "The request took too long.";
+"error_server"             = "Server error (code %d).";
+"error_decoding"           = "Failed to process data: %@";
+"error_persistence"        = "Failed to save data: %@";
+"error_entity_not_found"   = "Record not found.";
+"error_location_permission" = "Location permission denied.";
+"error_location_unavailable" = "Location unavailable.";
+"error_unknown"            = "Unexpected error: %@";
+
+// MARK: - Error Recovery
+"error_recovery_network"  = "Check your internet connection and try again.";
+"error_recovery_location" = "Go to Settings > Privacy > Location to grant access.";
+"error_recovery_generic"  = "Please try again.";
